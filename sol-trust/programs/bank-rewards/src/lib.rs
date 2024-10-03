@@ -3,7 +3,7 @@ use anchor_lang::{
     system_program::{transfer, Transfer},
 };
 
-declare_id!("CtNhstCC9DPUMYZKvaM7uMFGxJeHQLxBwLSY3qHarTf5");
+declare_id!("G4htn63GtqA9uswT3xm6UAPEjSrm21tz7M5nYRuSGx7Q");
 
 #[program]
 pub mod bank_rewards {

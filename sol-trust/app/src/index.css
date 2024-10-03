@@ -1,0 +1,23 @@
+/* Remove padding and margin from root and body */
+#root, body, html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Ensure background is uniform and light */
+body {
+  background-color: #f4f4f4; /* or use a different light color */
+}
+
+/* Remove extra padding around the form */
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit; /* No extra background color */
+  margin: 0; /* No margin on the container */
+}

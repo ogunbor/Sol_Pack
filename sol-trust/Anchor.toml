@@ -6,17 +6,13 @@ skip-lint = false
 
 [programs.devnet]
 bank-rewards = "CtNhstCC9DPUMYZKvaM7uMFGxJeHQLxBwLSY3qHarTf5"
-# rewards-bank = "7p4EhrzHyxyMuDStn4rPn5x8MMtwSrrNfzjbJChtaA3Y"
-sol_trust = "BBoAqxz7AfBvtkDgj2XtjG9kMmUEciSg6xmyLCJmzNGY"
-
-[idl]
-out = "target/idl"
+sol_trust = "FiD3EhXX6bKvWRwMEK2zuZRsaTxZoPKszVZZuxbtVpdR"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "https://api.devnet.solana.com"
+cluster = ["https://api.devnet.solana.com", "wss://api.devnet.solana.com/"]
 wallet = "~/.config/solana/id.json"
 
 [scripts]

@@ -8,7 +8,7 @@ pub mod utils;
 
 use contexts::*;
 
-declare_id!("BBoAqxz7AfBvtkDgj2XtjG9kMmUEciSg6xmyLCJmzNGY");
+declare_id!("FiD3EhXX6bKvWRwMEK2zuZRsaTxZoPKszVZZuxbtVpdR");
 
 #[program]
 pub mod sol_trust {

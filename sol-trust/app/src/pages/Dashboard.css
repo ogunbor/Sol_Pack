@@ -1,0 +1,74 @@
+/* Modal styles */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Ensure it’s above other elements */
+}
+
+.modal-content {
+    background-color: white;
+    /* White background for the modal */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal-buttons {
+    margin-top: 20px;
+}
+
+.modal-buttons button {
+    margin: 0 10px;
+    /* Space between buttons */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-account-button {
+    margin-top: 20px;
+    /* Space above the button */
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-account-button:hover {
+    background-color: #0056b3;
+}
+
+.collect-rewards-button {
+    background-color: #007bff;
+    /* Button color */
+    color: white;
+    /* Text color */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    cursor: not-allowed;
+    /* Indicate the button is disabled */
+    opacity: 0.6;
+    /* Make the button appear less prominent when disabled */
+}
+
+.collect-rewards-button:disabled {
+    background-color: #007bff;
+    /* Keep the same color */
+    color: white;
+    /* Text color */
+}

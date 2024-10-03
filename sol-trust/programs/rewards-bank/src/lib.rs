@@ -4,7 +4,7 @@ use anchor_spl::{
     token_interface::{transfer_checked, Mint, TokenAccount, TokenInterface, TransferChecked},
 };
 
-declare_id!("7p4EhrzHyxyMuDStn4rPn5x8MMtwSrrNfzjbJChtaA3Y");
+declare_id!("72um4FEXhiQcPayyRuAq5rSzNwUnVyScUZoUVMHDFWjs");
 
 #[program]
 pub mod rewards_bank {

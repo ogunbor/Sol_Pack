@@ -1,0 +1,96 @@
+/* Main container */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    box-shadow: none;
+    outline: none;
+}
+
+/* Date Picker input styling */
+.date-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: none;
+    font-size: 16px;
+}
+
+/* Label styling */
+label {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    text-align: left;
+}
+
+/* Button styling */
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-left: 14px;
+    /* Move the button to the right */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+/* Header text styling */
+.header-text {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Sub-header styling */
+.sub-header {
+    font-size: 1.2em;
+    /* Overall size of the text */
+    color: #555;
+    /* General text color */
+    text-align: center;
+    /* Center the text */
+    margin-bottom: 30px;
+    /* Space below the text */
+    line-height: 1.6;
+    /* Space between lines for better readability */
+}
+
+/* Highlight the 'SolTrust' part */
+.highlight-text {
+    font-size: 1.5em;
+    /* Larger font size for 'SolTrust' */
+    font-weight: bold;
+    /* Make 'SolTrust' bold */
+    color: #007bff;
+    /* Optional: Add a specific color to 'SolTrust' */
+    display: inline-block;
+}
